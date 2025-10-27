@@ -2,5 +2,5 @@
 string = input("String: ")
 
 for char in string:
-  print(char)
-  print("*")
+    print(char)
+    print("*")

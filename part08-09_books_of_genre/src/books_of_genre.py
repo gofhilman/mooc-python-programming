@@ -1,11 +1,12 @@
 # DO NOT CHANGE CLASS Book!
 # Write your solution after the class!
 
+
 class Book:
     def __init__(self, name: str, author: str, genre: str, year: int):
         self.name = name
         self.author = author
-        self.genre = genre 
+        self.genre = genre
         self.year = year
 
     ##STUB:# This enables easy printing of a Book object

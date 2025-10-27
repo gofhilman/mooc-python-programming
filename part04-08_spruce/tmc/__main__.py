@@ -3,7 +3,7 @@ from .runner import TMCTestRunner
 import sys
 
 
-if sys.argv.__len__() > 1 and sys.argv[1] == 'available_points':
+if sys.argv.__len__() > 1 and sys.argv[1] == "available_points":
     TMCTestRunner().available_points()
     sys.exit()
 

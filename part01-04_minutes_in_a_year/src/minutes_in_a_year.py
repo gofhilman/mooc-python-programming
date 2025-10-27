@@ -1,2 +1,2 @@
 # Write your solution here
-print(365*24*60)
+print(365 * 24 * 60)

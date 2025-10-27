@@ -46,7 +46,9 @@ class Reflect:
 
     def load_class(self):
         try:
-            self.__cls = getattr(importlib.import_module(self.__modulename), self.__classname)
+            self.__cls = getattr(
+                importlib.import_module(self.__modulename), self.__classname
+            )
             return self.__cls
         except Exception as e:
             return None

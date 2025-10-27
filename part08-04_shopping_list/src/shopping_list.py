@@ -16,6 +16,7 @@ class ShoppingList:
     def amount(self, n: int):
         return self.products[n - 1][1]
 
+
 # -------------------------
 # Write your solution here:
 # -------------------------
